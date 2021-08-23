@@ -33,7 +33,7 @@ public class VoiewConso {
 		
 		
 		// logical operator
-		System.out.println("---Check with Operator---\n");
+		System.out.println("---Check with Operator---\	n");
 		Scanner let = new Scanner(System.in);
 		char lett = let.next().charAt(0);
 		
