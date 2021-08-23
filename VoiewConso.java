@@ -13,7 +13,7 @@ public class VoiewConso {
 		
 		
 		if(letter == 'a') {
-			System.out.println("This is voiew\n");
+			System.out.println("This is vowel\n");
 		}
 		else if(letter == 'e') {
 			System.out.println("This is voiew\n");
