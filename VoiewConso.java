@@ -16,16 +16,29 @@ public class VoiewConso {
 			System.out.println("This is vowel\n");
 		}
 		else if(letter == 'e') {
-			System.out.println("This is voiew\n");
+			System.out.println("This is vowel\n");
 		}
 		else if(letter == 'i') {
-			System.out.println("This is voiew\n");
+			System.out.println("This is vowel\n");
 		}
 		else if(letter == 'o') {
 			System.out.println("This is voiew\n");
 		}
 		else if(letter == 'u') {
-			System.out.println("This is voiew\n");
+			System.out.println("This is vowel\n");
+		}
+		else {
+			System.out.println("This is consonent\n");
+		}
+		
+		
+		// logical operator
+		System.out.println("---Check with Operator---\n");
+		Scanner let = new Scanner(System.in);
+		char lett = let.next().charAt(0);
+		
+		if(lett == 'a' || lett == 'e' || lett == 'i' || lett == 'o' || lett == 'u') {
+			System.out.println("This is vowel\n");
 		}
 		else {
 			System.out.println("This is consonent\n");
